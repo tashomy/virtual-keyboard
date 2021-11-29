@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+body > * {
+  padding: 5px;
+}
+
+textarea {
+  min-width: 80%;
+  resize: none;
+}
+
+.container {
+  min-width: 80%;
+  display: flex;
+}
+
+/* FIRST */
+
+.first {
+  display: flex;
+  flex-direction: column;
+  min-width: calc(100% - ((100% / 12) * 3));
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.btn {
+  min-width: calc(100% / 9);
+  background-color: #000;
+  color: #fff;
+}
+
+.space-btn {
+  min-width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
+/* SECOND */
+
+.second {
+  min-width: calc(100% - ((100% / 12) * 9));
+  display: flex;
+  flex-direction: column;
+}
+
+.upper2 {
+  min-height: 20%;
+  display: flex;
+  min-width: 100%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  min-width: calc(100% / 3);
+}
+
+.right {
+  min-width: calc(100% - (100% / 3));
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-2 {
+  color: #fff;
+  background-color: #000;
+}
+
+.ok-btn {
+  color: #fff;
+  background-color: #000;
+}
+
+.back {
+  min-width: 50%;
+  min-height: 50%;
+  color: #fff;
+  background-color: #000;
+}
